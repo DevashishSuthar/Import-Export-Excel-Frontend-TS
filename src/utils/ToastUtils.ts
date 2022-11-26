@@ -4,7 +4,7 @@ import 'notyf/notyf.min.css';
 
 const notyf = new Notyf({
     dismissible: true,
-    duration: 3000,
+    duration: 5000,
     position: {
         x: 'right',
         y: 'top'

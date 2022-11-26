@@ -68,6 +68,7 @@ const File = () => {
     const onReaderLoad = (event: any) => {
         try {
             const obj = JSON.parse(event.target.result);
+            return obj;
         } catch (error) {
             console.log('ERROR IN JSON PARSING: ', error);
             jsonFileRef.current.value = '';
@@ -76,7 +77,7 @@ const File = () => {
         }
     };
 
-    const handleJsonFileChange = (evt: any) => {
+    const handleJsonFileChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
         const file = evt.target.files[0];
         if (file) {
             const { name } = file;
@@ -95,7 +96,7 @@ const File = () => {
         }
     };
 
-    const handleExcelFileChange = (evt: any) => {
+    const handleExcelFileChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
 
         const file = evt.target.files[0];
         if (file) {
@@ -112,7 +113,7 @@ const File = () => {
         }
     };
 
-    const handleRadioChange = (evt: any) => {
+    const handleRadioChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
         setGeneratedFileType(evt.target.value);
     };
 
