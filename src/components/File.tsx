@@ -127,9 +127,8 @@ const File = () => {
                     <h3>JSON TO EXCEL CONVERTER</h3>
                     <p>Here you can first upload the json file, then select the file types between csv and xlsx and then in response you will get the Excel file from the selected file types. </p>
                     <p><span className="warning-note">Note:- </span>
-                        Please upload json file in proper format by adding things like double quote instead of single quote or removing things like
-                        comma, semi-colon etc.
-                        Accepted file extension is .json.
+                        Please upload the json file in the appropriate format by adding things like double quotation marks instead of single quotation marks or removing things like a comma, semicolon, etc.
+                        The accepted file extension is .json.
                     </p>
                     <div>
                         <FormControl component="fieldset">
