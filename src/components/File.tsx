@@ -125,11 +125,11 @@ const File = () => {
             <div className="parent-container">
                 <div className="child-container">
                     <h3>JSON TO EXCEL CONVERTER</h3>
-                    <p>Here firstly you can upload json file, then select file types between csv and xlsx and then in response you will get excel file from selected file types. </p>
+                    <p>Here you can first upload the json file, then select the file types between csv and xlsx and then in response you will get the Excel file from the selected file types. </p>
                     <p><span className="warning-note">Note:- </span>
                         Please upload json file in proper format by adding things like double quote instead of single quote or removing things like
                         comma, semi-colon etc.
-                        Accpted file extensions is .json.
+                        Accepted file extension is .json.
                     </p>
                     <div>
                         <FormControl component="fieldset">
@@ -149,10 +149,10 @@ const File = () => {
                 </div>
                 <div className="child-container">
                     <h3>EXCEL TO JSON CONVERTER</h3>
-                    <p>Here firstly you can upload excel file then in response you will get json file. </p>
+                    <p>Here you can first upload the Excel file, then in response you will get the json file. </p>
                     <p><span className="warning-note">Note:- </span>
-                        Please upload excel file in proper format by adding keys in header or first row and values in columns of respective keys.
-                        Accepted file extensions are xls & xlsx formats.
+                        Please upload the Excel file in the appropriate format by adding keys in the header or first row and values in the respective key columns.
+                        The accepted file extensions are xls and xlsx formats.
                     </p>
                     <Button variant="contained" color="primary" className="file-upload-btn">
                         Upload Your File
